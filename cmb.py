@@ -31,7 +31,7 @@ from sklearn.model_selection import cross_val_score
 from scipy.stats import ks_2samp
 
 # 训练样本
-# 读取log数据
+# 读取log数据 aaa
 df_log=pd.read_csv('E:/cmb/train/train_log.csv',sep='\t')
 df_log['EVT_LBL_f']=df_log['EVT_LBL'].str.split('-',expand=True)[0]
 # TCH_TYP分组
