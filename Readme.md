@@ -1,4 +1,4 @@
-# 第一部分：背景<br>
+#第一部分：背景<br>
 * 1.网址：https://www.datafountain.cn/competitions/287<br>
 * 2.主题：消费金融场景下的用户购买预测<br>
 * 3.主办方： 招商银行股份有限公司信用卡中心 & 招商银行信用卡中心<br>
@@ -54,7 +54,7 @@ True positive(TP)，称为真阳率，表明实际是正样本预测成正样本
 (2)ROC曲线：以FPR为横轴，以TPR为纵轴，变回获得ROC曲线<br>
 (3)AUC也就是上图中蓝色阴影的面积<br>
 <br>
-# 第二部分：程序<br>
+#第二部分：程序<br>
 * 1.先运行xjh_feature.py<br>
 * 2.运行xjh_logistic.py，得到xjh_test_logistic_result.csv<br>
 * 3.运行xjh_lightgbm.py，其中包含交叉验证，注意交叉验证只是对算法进行验证，跟最终实施无关，得到xjh_test_lightgbm_result.csv<br>
