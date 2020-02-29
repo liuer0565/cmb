@@ -1,5 +1,5 @@
-第一部分：背景
---------------
+第一部分：背景<br>
+---------------
 1.网址：https://www.datafountain.cn/competitions/287<br>
 2.主题：消费金融场景下的用户购买预测<br>
 3.主办方： 招商银行股份有限公司信用卡中心 & 招商银行信用卡中心<br>
@@ -53,9 +53,9 @@ True positive(TP)，称为真阳率，表明实际是正样本预测成正样本
 真正类率(true postive rate， TPR)：TPR = TP/(TP+FN)，代表分类器预测的正类中实际正实例占所有正实例的比例<br>
 负正类率(false postive rate，FPR)：FPR = FP/(FP+TN)，代表分类器预测的正类中实际负实例占所有负实例的比例<br>
 (2)ROC曲线：以FPR为横轴，以TPR为纵轴，变回获得ROC曲线。<br>
-![](UNwu32mkRTZy1PNy5OBvbREN52BSR89i40nWcv7R.png)
+![](https://www.datafountain.cn/competitions/287/datasets/UNwu32mkRTZy1PNy5OBvbREN52BSR89i40nWcv7R.png)
 (3)AUC也就是上图中蓝色阴影的面积。<br>
---------------
+
 第二部分：程序<br>
 --------------
 1.先运行xjh_feature.py；<br>
