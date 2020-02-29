@@ -5,9 +5,10 @@
 4.数据下载：https://www.datafountain.cn/competitions/287/datasets<br>
 5.数据背景：本次比赛提供的数据集包括训练数据与测试数据，训练数据共分为三部分<br>
 (1)个人属性与信用卡消费数据：包含80000名信用卡客户的个人属性与信用卡消费数据，其中包含枚举型特征和数值型特征，均已转为数值并进行脱敏和标准。数据样例如下：<br>
-USRID	V1	V2	v3	…	V30<br>
-000001	-1.2212	0.4523	1.3251	…	-1.2212<br>
-000002	-1.0987	0.0165	-1.0684	…	0.0925<br>
+
+USRID|	V1|	V2|	v3|	…|	V30<br>
+000001|	-1.2212|	0.4523|	1.3251|	…|	-1.2212<br>
+000002|	-1.0987|	0.0165|	-1.0684|	…|	0.0925<br>
 (2)APP操作行为日志：上述信用卡客户中，部分已绑定掌上生活APP的客户，在近一个月时间窗口内的所有点击行为日志。日志记录包含如下字段<br>
 字段名	字段含义	说明<br>
 USRID	客户号	已匿名处理<br>
@@ -43,7 +44,7 @@ AUC(Area under Curve)：Roc曲线下的面积，介于0.1和1之间。Auc作为�
 字段名	预测1	预测0	合计<br>
 实际1	TP	FN	TP+FN<br>
 实际0	FP	TN	TP+TN<br>
-合计	TP+FP	FN+TN	TP+FN+TP+TN<br><br>
+合计	TP+FP	FN+TN	TP+FN+TP+TN<br>
 True negative(TN)，称为真阴率，表明实际是负样本预测成负样本的样本数<br>
 False positive(FP)，称为假阳率，表明实际是负样本预测成正样本的样本数<br>
 False negative(FN)，称为假阴率，表明实际是正样本预测成负样本的样本数<br>
@@ -52,7 +53,7 @@ True positive(TP)，称为真阳率，表明实际是正样本预测成正样本
 真正类率(true postive rate， TPR)：TPR = TP/(TP+FN)，代表分类器预测的正类中实际正实例占所有正实例的比例<br>
 负正类率(false postive rate，FPR)：FPR = FP/(FP+TN)，代表分类器预测的正类中实际负实例占所有负实例的比例<br>
 (2)ROC曲线：以FPR为横轴，以TPR为纵轴，变回获得ROC曲线<br>
-![ROC曲线](https://www.datafountain.cn/competitions/287/datasets/UNwu32mkRTZy1PNy5OBvbREN52BSR89i40nWcv7R.png)
+![ROC曲线](https://www.datafountain.cn/competitions/287/datasets/UNwu32mkRTZy1PNy5OBvbREN52BSR89i40nWcv7R.png)<br>
 (3)AUC也就是上图中蓝色阴影的面积<br>
 <br>
 # 第二部分：程序<br>
