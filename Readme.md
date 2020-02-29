@@ -55,8 +55,8 @@ True positive(TP)，称为真阳率，表明实际是正样本预测成正样本
 #### (3)AUC也就是上图中蓝色阴影的面积<br><br>
 
 # 第二部分：程序<br>
-#### 1.先运行xjh_feature.py<br>
-#### 2.运行xjh_logistic.py，得到xjh_test_logistic_result.csv<br>
-#### 3.运行xjh_lightgbm.py，其中包含交叉验证，注意交叉验证只是对算法进行验证，跟最终实施无关，得到xjh_test_lightgbm_result.csv<br>
-#### 4.运行xjh_xgboost.py，得到xjh_test_xgboost_result.csv<br>
-#### 5.从算法表现上来看，xgboost=lightgbm>logistic<br>
+### 1.先运行xjh_feature.py<br>
+### 2.运行xjh_logistic.py，得到xjh_test_logistic_result.csv<br>
+### 3.运行xjh_lightgbm.py，其中包含交叉验证，注意交叉验证只是对算法进行验证，跟最终实施无关，得到xjh_test_lightgbm_result.csv<br>
+### 4.运行xjh_xgboost.py，得到xjh_test_xgboost_result.csv<br>
+### 5.从算法表现上来看，xgboost=lightgbm>logistic<br>
